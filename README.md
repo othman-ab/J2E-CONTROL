@@ -12,8 +12,8 @@ Bienvenue dans notre application de commerce électronique basée sur des micros
 <br>
 <b>Commandes pour vault :</b>
 
->cd C:\Program Files\vault_1.15.2_windows_386<br>
->vault server -dev <br>
->set VAULT_ADDR=http://127.0.0.1:8200 <br>
->vault kv get secret/billing-service <br>
+>cd C:\Program Files\vault_1.15.2_windows_386 <br>;
+>vault server -dev <br>;
+>set VAULT_ADDR=http://127.0.0.1:8200 <br>;
+>vault kv get secret/billing-service <br>;
 
